@@ -52,7 +52,7 @@ function loadJSON(callback) {
         userFeedImage += `<div class="user-feed__data-question">
         <h5 class="user-feed__data-question-header">${item.title}</h5></div>
             <div class="user-feed__data-time">
-                <h5>${new Date(item.postDate).toLocaleString()}</h5>
+                <h5 class="user-feed__data-time-header">${new Date(item.postDate).toLocaleString()}</h5>
             </div>
         </div>`;
     });

@@ -46,20 +46,23 @@ html {
 .user-feed__image{
     border-radius: 50%;
     border: 1px solid #b9b5bc;
-    margin: 1rem;
+    margin: 1.5rem .5rem 0rem 2rem;
 }
 .user-feed__avatar{
     display: inline-block;
 }    
 .user-feed__single-user{
     position: relative;
-    width: 70%;
+    width: 77%;
+    margin-bottom: -3rem;
+}
+.user-feed__single-user:not(:last-child){
+    /* border-bottom: 1px solid red; */
 }
 .user-feed__data-name{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     font-size: 2rem;
-    /* width: 70%; */
     margin-left: 2rem;
     line-height: 1;
     position: relative;
@@ -91,4 +94,20 @@ html {
     left: 2rem;
     position: relative;
     padding-top: .5rem;
+}
+
+.user-feed__data-time {
+    position: relative;
+    top: -4.5rem;
+    left: 8.6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d1cfd3;
+    width: 99%;
+    margin-left: -6.5rem;
+    padding-left: 6.5rem;
+}
+
+.user-feed__data-time-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
 }
