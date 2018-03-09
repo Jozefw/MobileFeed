@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: verdana; 
+}
+.container {
+    width: 25%;
+    margin: 0 auto;
+}
+.mobile-view{
+    margin:5rem auto;
+    height:auto;
+    border: 1px solid #b9b5bc;
+}
+
+.header{
+    background-color: #6b4291;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+.activity{
+    display: inline-block;
+    margin: 2rem auto;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.fa-bars {
+    margin-right:2rem;
+    font-size: 2.5rem;
+}
+.fa-angle-left{
+   margin-left:2rem;
+   font-size: 4rem;
+}
+.user-feed__image{
+    border-radius: 50%;
+    border: 1px solid #b9b5bc;
+    margin: 1rem;
+}
+.user-feed__avatar{
+    display: inline-block;
+}    
+.user-feed__single-user{
+    position: relative;
+    width: 70%;
+}
+.user-feed__data-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    font-size: 2rem;
+    /* width: 70%; */
+    margin-left: 2rem;
+    line-height: 1;
+    position: relative;
+    left: 6.3rem;
+    top: -2rem;
+}
+.user-feed__data-name-author{
+    display: inline-block;
+    top: -3rem;
+    position: relative;
+    font-size: 1.5rem;
+}
+.user-feed__data-name-comment{
+    top: -3rem;
+    position: relative;
+    font-size: 1.5rem;
+    color: #6d6c6e;
+}
+
+.user-feed__data-question{
+    top: -5rem;
+    position: relative;
+    font-size: 2rem;
+    left: 6.5rem;
+}
+
+.user-feed__data-question-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 2rem;
+    position: relative;
+    padding-top: .5rem;
+}
