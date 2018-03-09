@@ -53,7 +53,7 @@ html {
 }    
 .user-feed__single-user{
     position: relative;
-    width: 77%;
+    width: 73%;
     margin-bottom: -3rem;
 }
 .user-feed__single-user:not(:last-child){
@@ -102,7 +102,7 @@ html {
     left: 8.6rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #d1cfd3;
-    width: 99%;
+    width: 104%;
     margin-left: -6.5rem;
     padding-left: 6.5rem;
 }
@@ -110,4 +110,10 @@ html {
 .user-feed__data-time-header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
+}
+
+.codeComments{
+    font-size:2rem;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

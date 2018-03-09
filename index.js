@@ -58,5 +58,4 @@ function loadJSON(callback) {
     });
     userFeedImage += `</div>`
     document.querySelector('.user-feed').insertAdjacentHTML('beforeend',userFeedImage);
-    // document.querySelector('.user-feed__data').insertAdjacentHTML('beforeend',userFeedData);
   }
